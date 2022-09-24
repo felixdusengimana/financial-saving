@@ -62,8 +62,9 @@ flutter:
   assets:
     - assets/img/save_money.jpg
     - assets/svg/save_money.svg
-    - assets/icons/fancy_star2.jpg
+    - assets/icons/fancy_star2.png
     - assets/icons/fancy_star.png
+    - assets/icons/user.png
     - assets/svg/fancy_circle.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
