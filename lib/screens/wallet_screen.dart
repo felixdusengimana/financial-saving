@@ -8,9 +8,17 @@ class WalletScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavbar(),
-      body: Center(
-        child: Text("Wallte"),
+      bottomNavigationBar: const BottomNavbar(),
+      body: Container(
+        child: Center(child: Text("Heelo")),
+        decoration: const BoxDecoration(
+          border: Border(
+            top: BorderSide(
+              color: Colors.black,
+              width: 1,
+            ),
+          ),
+        ),
       ),
     );
   }
