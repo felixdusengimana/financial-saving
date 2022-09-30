@@ -182,7 +182,7 @@ class _WalletScreenState extends State<WalletScreen> {
           ),
           SliverList(
               delegate: SliverChildListDelegate([
-            SizedBox(
+            const SizedBox(
               height: 1000,
             ),
           ]))
